@@ -1,7 +1,8 @@
 # 빅데이터 분석기사 실기 공부 (python 환경)
 
 ### 사용한 책
-데이터캠퍼스 빅데이터분석기사 실기 - python
+* 데이터캠퍼스 빅데이터분석기사 실기 - python
+* (https://www.datacampus.co.kr/board/read.jsp?id=98394&code=notice) 책 예제 실습 데이터
 
 ### 참고 사이트
 * (https://www.youtube.com/watch?v=iOskHbBeV9o&list=PLSlDi2AkDv82Qv7B3WiWypQSFmOCb-G_-&index=1) [- 유튜브 실기 연습 (기초) 무작정따라하기]
