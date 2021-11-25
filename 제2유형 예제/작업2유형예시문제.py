@@ -68,6 +68,7 @@ model = RandomForestClassifier(n_estimators=100, max_depth =5, random_state=42)
 model.fit(X_train, y_train['gender']) # 정답을 주고 학습
 print('정확도: ', model.score(X_train, y_train['gender']))
 print(X_test)
+# 남자일 확률
 pred = model.predict_proba(X_test)
 print('pred: ', pred[:,1])
 print('pred자체:', pred)

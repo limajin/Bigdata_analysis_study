@@ -2,7 +2,7 @@
 # 6.5 선형회귀 적용
 
 import pandas as pd
-data = pd.read_csv("제공자료/house_raw.csv")
+data = pd.read_csv("../제공자료/house_raw.csv")
 
 # X 와 y 데이터로 나누기
 X = data[data.columns[:5]]
