@@ -5,9 +5,9 @@ from sklearn.preprocessing import * # 전처리
 from sklearn.ensemble import * # 모델링
 
 # 데이터로드
-X_train = pd.read_csv('X_train.csv', encoding='euc-kr')
-X_test = pd.read_csv('X_test.csv', encoding='euc-kr')
-y_train = pd.read_csv('y_train.csv', encoding='euc-kr')
+X_train = pd.read_csv('data/X_train.csv', encoding='euc-kr')
+X_test = pd.read_csv('data/X_test.csv', encoding='euc-kr')
+y_train = pd.read_csv('data/y_train.csv', encoding='euc-kr')
 print(X_train)
 print(X_test)
 print(y_train)
