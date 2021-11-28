@@ -10,6 +10,7 @@
 * [네이버 데이터분석 카페](https://cafe.naver.com/sqlpd) 
 * [네이버 데이터분석 카페: 태공망공자 님의 실기 공부 정리](https://cafe.naver.com/sqlpd/21492) 
 * [실기 대비 문제수록](https://www.datamanim.com/intro.html) 
+* [캐글 놀이터] (https://www.kaggle.com/agileteam/bigdatacertificationkr)
 
 
 ### 실기 연습 환경
