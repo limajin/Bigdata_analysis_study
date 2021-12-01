@@ -4,6 +4,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 pd.set_option('max_columns',None)
+
+## 순서
+# 1. 데이터 로드
+# 2. 라벨인코딩
+# 3. 스케일
+# 4. train_test_split
+# 5. 모델 + 그리드서치
+
 # 데이터 로드
 X_train = pd.read_csv('data/X_train.csv', encoding='euc-kr')
 y_train = pd.read_csv('data/y_train.csv', encoding='euc-kr')
