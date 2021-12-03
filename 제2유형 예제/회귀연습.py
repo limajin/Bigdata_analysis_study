@@ -124,7 +124,7 @@ print(X_test)
 
 from sklearn.preprocessing import MinMaxScaler
 mms = MinMaxScaler()
-mms_df = mms.fit_transform(X_test.drop('총구매액', axis =1))
+mms_df = mms.transform(X_test.drop('총구매액', axis =1))
 # print(mms_df)
 pred_test = best_grid.predict(mms_df)
 
